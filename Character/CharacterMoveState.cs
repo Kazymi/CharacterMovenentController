@@ -18,7 +18,7 @@ public class CharacterMoveState : State
         m_characterAnimationController = characterAnimationController;
     }
 
-    public override void Tick()
+    public override void FixedTick()
     {
         if (m_joystick.Direction != Vector2.zero)
         {

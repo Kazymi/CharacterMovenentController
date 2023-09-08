@@ -27,7 +27,7 @@ public class CharacterControllerSystem : GameSystem
 
     private void Update()
     {
-        m_stateMachine.Tick();
+        m_stateMachine.FixedTick();
     }
 
     private void FixedUpdate()
